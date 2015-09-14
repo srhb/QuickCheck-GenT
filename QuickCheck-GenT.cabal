@@ -42,7 +42,7 @@ library
   other-modules:
     QuickCheck.GenT.Prelude
   build-depends:
-    QuickCheck < 2.7,
+    QuickCheck >= 2.8 && < 2.9,
     random,
     mtl,
     base >= 4.5 && < 5
